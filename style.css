@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(purple, red);
+}
+.container {
+  width: 400px;
+  height: min-content;
+  background-color: #9f9d9d;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.container h3{
+    font-size: 28px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+form input {
+  width: 80%;
+  font-size: 19px;
+  text-transform: capitalize;
+  padding: 12px 16px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #000;
+  background-color: #e6f5fb;
+}
+
+button {
+  width: 46px;
+  height: 46px;
+  background-color: #e6f5fb;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.image img {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.temp {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.dest {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.loca {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.other-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.other-details > div {
+  font-size: 18px;
+  font-weight: 600;
+}
+.other-details>div span {
+    color: #000;
+    font-size: 15px;
+    padding: 20px;
+   
+}
+.other-details>div p{
+  font-size: 15px;
+  font-weight: 600;
+}
+
